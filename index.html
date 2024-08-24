@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>THALA FOR A REASON</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>THALA FOR A REASON</h1>
+      <div class="img-main">
+        <img src="dhoni.png" alt="">
+        <div class="main">
+          <input type="text" id="searchInput" placeholder="Write any 7 letter word">
+          <button onclick="checkSearch()">Search</button> 
+        </div>
+        <img src="dhoni2.png" alt="">
+
+      </div>
+    </div>
+  
+    <!-- Full-screen video modal overlay -->
+    <div class="modal-overlay" id="videoModal">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div id="videoPlayer"></div>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  </html>
